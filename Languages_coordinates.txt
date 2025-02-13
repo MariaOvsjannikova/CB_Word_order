@@ -1,0 +1,27 @@
+Language	Branch	Family	Longitude	Latitude
+Russian	Slavic	Indo-European		
+North-WesternRussiandialects	Slavic	Indo-European		
+Belarusian	Slavic	Indo-European		
+West_Church_Slavic	Slavic	Indo-European		
+Polish	Slavic	Indo-European		
+Borderland_Polish	Slavic	Indo-European		
+Lithuanian	Baltic	Indo-European		
+Latvian	Baltic	Indo-European		
+Latgalian	Baltic	Indo-European		
+LowGerman	Germanic	Indo-European		
+HighGerman	Germanic	Indo-European		
+Yiddish	Germanic	Indo-European		
+Swedish	Germanic	Indo-European		
+Danish	Germanic	Indo-European		
+Latin	Romance	Indo-European		
+Baltic_Romani	Indo-Aryan	Indo-European		
+Finnish_Romani	Indo-Aryan	Indo-European		
+Scandinavian_Romani	Indo-Aryan	Indo-European		
+Livonian	Finnic	Uralic		
+Estonian	Finnic	Uralic		
+Finnish	Finnic	Uralic		
+Veps	Finnic	Uralic		
+Karelian	Finnic	Uralic		
+Votic	Finnic	Uralic		
+Saami	Saami	Uralic		
+Karaim	Turkic	Turkic		
