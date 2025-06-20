@@ -24,7 +24,7 @@ library(ggrepel)
 MDS_CB_plot <- ggplot(plot_data, aes(x = D1, y = D2, shape = Area, label = row.names(plot_data))) +
   geom_point(size = 4) + 
   scale_shape_manual(values = c(16, 13)) +
-  geom_text_repel(max.overlaps = 25, box.padding = 0.5, size = 5) +
+  geom_text_repel(max.overlaps = 25, box.padding = 0.5, size = 7) +
   theme(legend.position = "bottom")
 
 MDS_CB_plot
@@ -34,6 +34,17 @@ tiff("Fig_3_MDS_plot_CB.tiff", width = 8, height = 8, units = 'in', res = 300)
 MDS_CB_plot
 dev.off()
 
+# MDS with 3 dimensions
+
+mds_CB_3_dim <- mds(distances, ndim = 3)
+mds_CB_3_dim$stress
+
+colors <- vector(length = 18)
+colors[distances_df$X == 'CB'] <- "black"
+colors[distances_df$X == 'n'] <- "grey"
+
+plot3d(mds_CB_3_dim$conf, size = 1, type = "s", col = colors)
+text3d(mds_CB_3_dim$conf, text = distances_df$X.1, cex = 1, pos = 1, font = 2)
 
 # 3. Test the correlation between distances and area membership
 # while controlling for genealogy
